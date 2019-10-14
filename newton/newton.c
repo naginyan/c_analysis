@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /*  n乗根の真値をnewton法で近似しよう
-  cons    : n乗根
+  cons    : Nth root
   first   : 初期値
   delta   : 許容誤差
-  num     : 根の値
+  num     : 数
 
-  Example (４の３乗根)
+  Example (４の３乗根，初期値は２，誤差0.001以下)
   cons  : 4
   first : 2
   delta : 0.001
-  num   : 2
+  num   : 3
 */
 
 #define cons  5
