@@ -30,19 +30,6 @@ double print_matrix(double arr[row][col]){
   printf("\n");
 }
 
-// 行列のコピーを生成する関数
-double copy_matrix(double arr[row][col]){
-  double copy_arr[row][col];
-  int i;
-  int j;
-  for(j=0; j<row; j++){
-    for(i=0; i<col; i++){
-      copy_arr[j][i] = arr[j][i];
-    }
-  }
-  return copy_arr[row][col];
-}
-
 int main(){
 /* -- 変数解説 --
       arr[row][col]  : 求めたい連立一次方程式
